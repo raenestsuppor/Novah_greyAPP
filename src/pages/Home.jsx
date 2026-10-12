@@ -6,7 +6,7 @@ import * as yup from "yup";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import axios from "axios";
 import BASE_URL from "../components/urls";
-import logo from "../assets/logo.png"; // Adjust the path to your logo
+import logo from "../assets/logo.png";
 import FormErrMsg from "../components/FormErrMsg";
 
 const schema = yup.object().shape({
@@ -47,8 +47,8 @@ const Login = () => {
         {/* Logo */}
         <div className="flex justify-start mb-5">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Grey-Logo.svg/1024px-Grey-Logo.svg.png"
-            alt=""
+            src={logo}
+            alt="Novah Grey logo"
             className="w-24 h-auto"
           />
         </div>
