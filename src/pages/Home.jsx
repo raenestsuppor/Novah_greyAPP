@@ -49,7 +49,7 @@ const Login = () => {
           <img
             src={logo}
             alt="Novah Grey logo"
-            className="w-24 h-auto"
+            className="w-16 h-16 rounded-full object-cover"
           />
         </div>
         <div className="flex justify-start mb-12">
